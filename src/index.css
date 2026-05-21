@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0C0C0C;
+}
+
+body {
+  background-color: #0C0C0C;
+  color: #e5e7eb;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Chrome/silver headline — brighter metallic stops ── */
+.hero-heading {
+  background: linear-gradient(170deg, #9AAFC2 0%, #D8EAF5 42%, #F4FAFF 60%, #C4D8E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Purple → magenta → orange → yellow fill gradient ── */
+.gradient-accent {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 35%, #f97316 68%, #eab308 100%);
+}
+
+/* ── Gradient text — brighter stops so they pop on dark bg ── */
+.gradient-accent-text {
+  background: linear-gradient(135deg, #c084fc 0%, #f472b6 35%, #fb923c 68%, #facc15 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Card with gradient-border technique ── */
+.card-gradient-border {
+  position: relative;
+  border-radius: 1.5rem;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.35) 0%,
+    rgba(236, 72, 153, 0.18) 50%,
+    rgba(249, 115, 22, 0.14) 100%
+  );
+}
+.card-gradient-border > * {
+  border-radius: calc(1.5rem - 1px);
+}
+
+/* ── Prevent mid-word breaks globally ── */
+* {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* ── Scroll margin for all sections — 100px clears the 80px navbar + breathing room ── */
+section[id] {
+  scroll-margin-top: 100px;
+}

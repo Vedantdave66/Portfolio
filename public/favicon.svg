@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- Purple bloom behind the letter -->
+    <radialGradient id="bloom" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Chrome / silver gradient — mirrors .hero-heading -->
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#9AAFC2"/>
+      <stop offset="44%"  stop-color="#D8EAF5"/>
+      <stop offset="62%"  stop-color="#F4FAFF"/>
+      <stop offset="100%" stop-color="#C4D8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark rounded background -->
+  <rect width="32" height="32" rx="7" fill="#0C0C0C"/>
+  <!-- Subtle purple bloom -->
+  <rect width="32" height="32" rx="7" fill="url(#bloom)"/>
+
+  <!-- V. — bold, chrome, centred -->
+  <text
+    x="16"
+    y="23"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, 'Arial Black', Arial, sans-serif"
+    font-weight="900"
+    font-size="19"
+    fill="url(#chrome)"
+  >V.</text>
+</svg>

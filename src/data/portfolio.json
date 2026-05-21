@@ -1,0 +1,125 @@
+{
+  "profile": {
+    "name": "Vedant Dave",
+    "shortName": "Vedant",
+    "tagline": "Full-Stack Engineer. Building things that scale.",
+    "role": "Software Engineering Student",
+    "specialization": "Full-Stack · Cloud · Mobile",
+    "location": "Brampton, ON",
+    "yearsOfExperience": "2+",
+    "bio": "Software Engineering student at Carleton University (graduating 2027), building full-stack products end-to-end — from PostgreSQL schemas to React Native screens. Previously a Student Developer at the Bank of Canada shipping Python microservices for internal data pipelines, and a Technical Analyst at the City of Brampton optimizing Azure cloud infrastructure. Currently shipping TandemPay, a fintech platform with a double-entry ledger, Stripe Connect, and Plaid OAuth; and NXTATH, an athlete engagement platform in active development. Microsoft Azure certified (AZ-900). Co-President, Hindu Student Society at Carleton.",
+    "social": {
+      "github": "https://github.com/Vedantdave66",
+      "linkedin": "https://linkedin.com/in/vedant-dave",
+      "email": "vedantdave9@gmail.com"
+    }
+  },
+  "certifications": [
+    {
+      "name": "Microsoft Azure Fundamentals",
+      "code": "AZ-900",
+      "issuer": "Microsoft",
+      "year": "2024"
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "items": ["Python", "TypeScript", "JavaScript", "SQL"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["React", "React Native", "Tailwind CSS", "Vite"]
+      },
+      {
+        "name": "Backend",
+        "items": ["FastAPI", "Node.js", "REST APIs", "Microservices"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "SQLite"]
+      },
+      {
+        "name": "Tools & Systems",
+        "items": ["Docker", "Git", "CI/CD", "Stripe API", "Plaid API"]
+      },
+      {
+        "name": "Cloud",
+        "items": ["Microsoft Azure", "AZ-900 Certified"]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Bank of Canada",
+      "role": "Student Developer",
+      "period": "May 2025 — Aug 2025",
+      "location": "Ottawa, ON",
+      "summary": "Built and scaled Python microservices and REST APIs supporting internal data pipelines and analytics workflows at Canada's central bank.",
+      "highlights": [
+        "Built and scaled Python-based microservices and REST APIs supporting internal data pipelines and analytics workflows",
+        "Improved data pipeline reliability by implementing validation logic, reducing manual data review effort by 30%",
+        "Deployed services using Docker and CI/CD pipelines ensuring consistent, reproducible releases"
+      ]
+    },
+    {
+      "company": "City of Brampton",
+      "role": "Technical Analyst",
+      "period": "Jan 2024 — Aug 2024",
+      "location": "Brampton, ON",
+      "summary": "Optimized Azure cloud infrastructure and resolved high-impact technical issues across city-wide systems serving thousands of users.",
+      "highlights": [
+        "Optimized cloud infrastructure using Azure, improving overall system performance by 15%",
+        "Resolved high-impact technical issues across city-wide systems, maintaining uptime for critical services",
+        "Supported deployment of scalable applications serving 3,000+ users"
+      ]
+    },
+    {
+      "company": "Apple",
+      "role": "Specialist",
+      "period": "Nov 2021 — Feb 2022",
+      "location": "Ottawa, ON",
+      "summary": "Provided hands-on hardware and software support for 50+ customers daily as part of Apple's retail technical support team.",
+      "highlights": [
+        "Diagnosed and resolved hardware and software issues for 50+ customers daily, translating complex problems into actionable solutions",
+        "Provided technical guidance on Apple ecosystem products in a fast-paced, high-volume environment"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "tandempay",
+      "title": "TandemPay",
+      "subtitle": "Financial state management for groups",
+      "description": "Full-stack fintech monorepo for multi-user financial state management. Features a double-entry ledger for balance correctness, Stripe Connect with webhook-based reconciliation, Plaid OAuth for bank linking, and a greedy debt-simplification algorithm that minimizes transactions across a group.",
+      "highlights": [
+        "Double-entry ledger — guarantees financial correctness, balance consistency, and conservation of money",
+        "Idempotent payment operations with row-level locking (SELECT FOR UPDATE) — eliminates race conditions",
+        "Greedy debt-simplification algorithm — minimizes transaction count for group settlement",
+        "50+ documented REST API endpoints across groups, expenses, settlements, and payments"
+      ],
+      "stack": ["FastAPI", "PostgreSQL", "React", "React Native", "Stripe Connect", "Plaid API"],
+      "role": "Founder",
+      "year": "2026",
+      "link": "https://tandempay.ca",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "nxtath",
+      "title": "NXTATH",
+      "subtitle": "Athlete engagement platform",
+      "description": "Full-stack athlete engagement platform built with React and React Native. MVP in active development.",
+      "highlights": [],
+      "stack": ["React", "React Native"],
+      "role": "Founder",
+      "year": "2025",
+      "link": "",
+      "image": "",
+      "highlight": false,
+      "status": "in-development"
+    }
+  ],
+  "testimonials": []
+}
