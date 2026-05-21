@@ -54,7 +54,7 @@ export default function HeroSection() {
         <motion.h1
           {...fadeUp(0.2)}
           className="hero-heading font-kanit font-black leading-[0.9] tracking-tight whitespace-nowrap"
-          style={{ fontSize: 'clamp(3rem, 13vw, 14rem)' }}
+          style={{ fontSize: 'clamp(3rem, 9.5vw, 10.5rem)' }}
         >
           Hi, I'm {shortName}
         </motion.h1>
