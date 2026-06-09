@@ -2,9 +2,9 @@
   "profile": {
     "name": "Vedant Dave",
     "shortName": "Vedant",
-    "tagline": "Full-Stack Engineer. Building things that scale.",
+    "tagline": "Building fintech and AI products end-to-end.",
     "role": "Software Engineering Student",
-    "specialization": "Full-Stack · Cloud · Mobile",
+    "specialization": "Full-Stack · AI · Fintech",
     "location": "Brampton, ON",
     "yearsOfExperience": "2+",
     "bio": "Software Engineering student at Carleton University (graduating 2027), building full-stack products end-to-end — from PostgreSQL schemas to React Native screens. Previously a Student Developer at the Bank of Canada shipping Python microservices for internal data pipelines, and a Technical Analyst at the City of Brampton optimizing Azure cloud infrastructure. Currently shipping TandemPay, a fintech platform with a double-entry ledger, Stripe Connect, and Plaid OAuth; and NXTATH, an athlete engagement platform in active development. Microsoft Azure certified (AZ-900). SAP Certified Generative AI Developer",
@@ -30,31 +30,35 @@
   ],
   "skills": {
     "categories": [
-      {
-        "name": "Languages",
-        "items": ["Python", "TypeScript", "JavaScript", "SQL"]
-      },
-      {
-        "name": "Frontend",
-        "items": ["React", "React Native", "Tailwind CSS", "Vite"]
-      },
-      {
-        "name": "Backend",
-        "items": ["FastAPI", "Node.js", "REST APIs", "Microservices"]
-      },
-      {
-        "name": "Databases",
-        "items": ["PostgreSQL", "SQLite"]
-      },
-      {
-        "name": "Tools & Systems",
-        "items": ["Docker", "Git", "CI/CD", "Stripe API", "Plaid API"]
-      },
-      {
-        "name": "Cloud",
-        "items": ["Microsoft Azure", "AZ-900 Certified"]
-      }
-    ]
+  {
+    "name": "Languages",
+    "items": ["Python", "TypeScript", "JavaScript", "SQL"]
+  },
+  {
+    "name": "Frontend",
+    "items": ["React", "React Native", "Tailwind CSS", "Vite"]
+  },
+  {
+    "name": "Backend",
+    "items": ["FastAPI", "Node.js", "REST APIs", "Microservices"]
+  },
+  {
+    "name": "AI & Machine Learning",
+    "items": ["Generative AI", "Prompt Engineering", "LLM Applications"]
+  },
+  {
+    "name": "Databases",
+    "items": ["PostgreSQL", "SQLite"]
+  },
+  {
+    "name": "Cloud & DevOps",
+    "items": ["Microsoft Azure", "Docker", "Git", "CI/CD"]
+  },
+  {
+    "name": "APIs & Payments",
+    "items": ["Stripe API", "Plaid API", "REST APIs"]
+  }
+] 
   },
   "experience": [
     {
